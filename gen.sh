@@ -7,6 +7,8 @@ fi
 if [ ! -f "./testcases/Inverse/test-$num.in" ]; then
   touch ./testcases/Ordered/test-$num.in
   touch ./testcases/Inverse/test-$num.in
+  echo $num >> ./testcases/Ordered/test-$num.in
+  echo $num >> ./testcases/Inverse/test-$num.in
 
   for ((i = 1; i <= $num; i ++)) do
     echo $i >> ./testcases/Ordered/test-$num.in
@@ -21,5 +23,6 @@ fi
 mkdir ./testcases/Random/$num
 for ((i = 1; i <= 10; i ++)) do
   touch ./testcases/Random/$num/test-$i.in
-  shuf -i 1-$num -n $num > ./testcases/Random/$num/test-$i.in
+  echo $num >> ./testcases/Random/$num/test-$i.in
+  shuf -i 1-$num -n $num >> ./testcases/Random/$num/test-$i.in
 done
