@@ -4,18 +4,18 @@ if [ -d "./testcases/Random/$num" ]; then
   rm -rf ./testcases/Random/$num
 fi
 
-if [ ! -f "./testcases/Inverse/test-$num.in" ]; then
+if [ ! -f "./testcases/Reverse/test-$num.in" ]; then
   touch ./testcases/Ordered/test-$num.in
-  touch ./testcases/Inverse/test-$num.in
+  touch ./testcases/Reverse/test-$num.in
   echo $num >> ./testcases/Ordered/test-$num.in
-  echo $num >> ./testcases/Inverse/test-$num.in
+  echo $num >> ./testcases/Reverse/test-$num.in
 
   for ((i = 1; i <= $num; i ++)) do
     echo $i >> ./testcases/Ordered/test-$num.in
   done
 
   for ((i=$num; i > 0; i --)) do
-    echo $i >> ./testcases/Inverse/test-$num.in
+    echo $i >> ./testcases/Reverse/test-$num.in
   done
 
 fi
