@@ -1,6 +1,7 @@
 #include "../lib/libs.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 int main(int argc, char *argv[]) {
   if (argc <= 1) {
     printf("Escreva como primeiro argumento o sort que deseja\n"

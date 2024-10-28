@@ -8,14 +8,17 @@ Data insertionSort(int *array, int size) {
     int actual = array[i];
     int j = i - 1;
 
-    do {
+    while (j >= 0) {
       if (array[j] > actual) {
         array[j + 1] = array[j];
-        j--;
         data.numberOfSwaps++;
+        data.numberOfComparisons++;
+        j--;
+      } else {
+        data.numberOfComparisons++;
+        break;
       }
-      data.numberOfComparisons++;
-    } while (j >= 0);
+    }
 
     array[j + 1] = actual;
     data.numberOfSwaps++;
