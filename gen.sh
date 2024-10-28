@@ -5,13 +5,13 @@ if [ -d "./testcases/Random/$num" ]; then
 fi
 
 if [ ! -f "./testcases/Reverse/test-$num.in" ]; then
-  touch ./testcases/Ordered/test-$num.in
+  touch ./testcases/Sorted/test-$num.in
   touch ./testcases/Reverse/test-$num.in
-  echo $num >> ./testcases/Ordered/test-$num.in
+  echo $num >> ./testcases/Sorted/test-$num.in
   echo $num >> ./testcases/Reverse/test-$num.in
 
   for ((i = 1; i <= $num; i ++)) do
-    echo $i >> ./testcases/Ordered/test-$num.in
+    echo $i >> ./testcases/Sorted/test-$num.in
   done
 
   for ((i=$num; i > 0; i --)) do
