@@ -10,15 +10,5 @@
 #include "selection.h"
 #include "shell.h"
 #include "util.h"
-typedef enum Sorts {
-  BUBBLE,
-  COUNTING,
-  HEAP,
-  INSERTION,
-  MERGE,
-  QUICK,
-  RADIX,
-  SELECTION,
-  SHELL,
-} sorts;
+int sort(char *string);
 #endif

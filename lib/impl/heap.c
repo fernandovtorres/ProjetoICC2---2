@@ -24,10 +24,10 @@ static void buildHeap(int *array, int size, int root, Data *data) {
   int left = 2 * root + 1;
   int right = 2 * root + 2;
 
-  if (left < size && array[left] > array[right])
+  if (left < size && array[left] > array[max])
     max = left;
 
-  if (right < size && array[right] > array[left])
+  if (right < size && array[right] > array[max])
     max = right;
 
   data->numberOfComparisons += 2;
