@@ -5,7 +5,6 @@ int median(int a, int b, int c, Data *data);
 
 Data quickSort(int *array, int size) {
   INIT_DATA(data);
-
   data.start = clock();
 
   quicksort(array, 0, size - 1, &data);

@@ -4,7 +4,6 @@ void merge(int left[], int sizeLeft, int right[], int sizeRight, int *v, Data *d
 
 Data mergeSort(int *array, int size) {
   INIT_DATA(data);
-
   data.start = clock();
 
   if(size == 1) return data;
