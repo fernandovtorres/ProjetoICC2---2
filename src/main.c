@@ -17,11 +17,11 @@ int main(int argc, char *argv[]) {
   INIT_DATA(data);
 
   int sortIndex, printModifier = 0, *array, size = 0;
-  sortIndex = sort(argv[1]);
+  sortIndex = getSortIndex(argv[1]);
   if (argv[2])
     printModifier = atoi(argv[2]);
 
-  if (sortIndex > 8) {
+  if (sortIndex == -1) {
     printf("Escreva o nome dos sorts corretamente e em minusculo");
     return EXIT_FAILURE;
   }

@@ -9,7 +9,7 @@ void swap(int *a, int *b) {
 
 int maxBetween(int a, int b) { return a > b ? a : b; }
 
-int sort(char *string) {
+int getSortIndex(char *string) {
   if (!strcmp(string, "bubble")) {
     return 0;
   } else if (!strcmp(string, "counting")) {
@@ -29,5 +29,5 @@ int sort(char *string) {
   } else if (!strcmp(string, "shell")) {
     return 8;
   }
-  return 10000010;
+  return -1;
 }

@@ -11,5 +11,5 @@ typedef struct data_ {
 } Data;
 void swap(int *a, int *b);
 int maxBetween(int a, int b);
-int sort(char *string);
+int getSortIndex(char *string);
 #endif
