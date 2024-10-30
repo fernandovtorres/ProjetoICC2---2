@@ -23,15 +23,15 @@ void shellsort(int v[], int size, int increments[], int numOfIncrements, Data *d
   for(k=0; k<numOfIncrements; k++){
     h = increments[k];
 
-    for(i=h; i<size; i++){
+    for(i = h; i < size; i++){
       aux = v[i];
 
-      for(j=i-h; j>=0 && v[j]>aux; j-=h){
-        v[j+h] = v[j];
+      for(j = i - h; (j >= 0) && (v[j] > aux); j -= h){
+        v[j + h] = v[j];
         data->numberOfComparisons++;
       }
 
-      v[j+h] = aux;
+      v[j + h] = aux;
       data->numberOfSwaps++;
     }
   }

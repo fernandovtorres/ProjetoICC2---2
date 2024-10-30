@@ -32,18 +32,21 @@ void quicksort(int v[], int start, int end, Data *data){
   int j = start;
 
   while(j < end){
-      if(v[j] <= v[end]){
-          i++;
-          aux = v[i];
-          v[i] = v[j];
-          v[j] = aux;
-          data->numberOfSwaps++;
-      }
-      data->numberOfComparisons++;
-      j++;
+    if(v[j] <= v[end]){
+      i++;
+
+      aux = v[i];
+      v[i] = v[j];
+      v[j] = aux;
+      data->numberOfSwaps++;
+    }
+
+    data->numberOfComparisons++;
+    j++;
   }
   
   i++;
+
   aux = v[pivot];
   v[pivot] = v[i];
   v[i] = aux;
@@ -53,7 +56,7 @@ void quicksort(int v[], int start, int end, Data *data){
   quicksort(v, i+1, end, data);
 }
 
-int median (int a, int b, int c, Data *data) {
+int median(int a, int b, int c, Data *data){
   if ((a > b) ^ (a > c)){ //XOR
     data->numberOfComparisons += 2;
     return a;

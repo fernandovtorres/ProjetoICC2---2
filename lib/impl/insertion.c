@@ -4,17 +4,19 @@ Data insertionSort(int *array, int size) {
   INIT_DATA(data);
   data.start = clock();
 
-  for (int i = 1; i < size; i++) {
+  for(int i = 1; i < size; i++){
     int actual = array[i];
     int j = i - 1;
 
-    while (j >= 0) {
-      if (array[j] > actual) {
+    while(j >= 0){
+      if(array[j] > actual){
         array[j + 1] = array[j];
         data.numberOfSwaps++;
         data.numberOfComparisons++;
+
         j--;
-      } else {
+      }
+      else {
         data.numberOfComparisons++;
         break;
       }

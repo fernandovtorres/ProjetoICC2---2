@@ -4,11 +4,11 @@ Data heapSort(int *array, int size) {
   INIT_DATA(data);
   data.start = clock();
 
-  for (int i = (size / 2) - 1; i >= 0; i--) {
+  for(int i = (size / 2) - 1; i >= 0; i--){
     buildHeap(array, size, i, &data);
   }
 
-  for (int i = size - 1; i > 0; i--) {
+  for(int i = size - 1; i > 0; i--){
     swap(&array[0], &array[i]);
     data.numberOfComparisons++;
     buildHeap(array, i, 0, &data);
@@ -19,7 +19,7 @@ Data heapSort(int *array, int size) {
   return data;
 }
 
-void buildHeap(int *array, int size, int root, Data *data) {
+void buildHeap(int *array, int size, int root, Data *data){
   int max = root;
   int left = 2 * root + 1;
   int right = 2 * root + 2;

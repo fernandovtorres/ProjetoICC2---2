@@ -14,12 +14,12 @@ Data mergeSort(int *array, int size) {
   int l = 0, r = 0;
   for (int i = 0; i < size; i++){
     if(i < middle){
-        left[l] = array[i];
-        l++;
+      left[l] = array[i];
+      l++;
     }
     else{
-        right[r] = array[i];
-        r++;
+      right[r] = array[i];
+      r++;
     }
   }
 
@@ -38,13 +38,14 @@ void merge(int left[], int sizeLeft, int right[], int sizeRight, int *v, Data *d
 
   while((l < sizeLeft) && (r < sizeRight)){
     if(left[l] < right[r]){
-        v[i] = left[l];
-        l++;
+      v[i] = left[l];
+      l++;
     }
     else{
-        v[i] = right[r];
-        r++;
+      v[i] = right[r];
+      r++;
     }
+    
     data->numberOfComparisons++;
     i++;
   }
