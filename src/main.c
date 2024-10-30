@@ -45,8 +45,8 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < size; i++) {
       printf("%d ", array[i]);
     }
+    printf("\n");
   }
-  printf("\n");
 
   free(array);
   array = NULL;
