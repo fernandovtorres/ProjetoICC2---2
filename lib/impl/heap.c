@@ -19,7 +19,7 @@ Data heapSort(int *array, int size) {
   return data;
 }
 
-static void buildHeap(int *array, int size, int root, Data *data) {
+void buildHeap(int *array, int size, int root, Data *data) {
   int max = root;
   int left = 2 * root + 1;
   int right = 2 * root + 2;

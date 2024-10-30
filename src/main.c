@@ -46,7 +46,9 @@ int main(int argc, char *argv[]) {
       printf("%d ", array[i]);
     }
   }
-
   printf("\n");
+
+  free(array);
+  array = NULL;
   return EXIT_SUCCESS;
 }
