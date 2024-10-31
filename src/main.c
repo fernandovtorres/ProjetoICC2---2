@@ -36,10 +36,8 @@ int main(int argc, char *argv[]) {
   }
 
   data = (*functionArray[sortIndex])(array, size);
-  printf(
-      "Quantidade de comparações: %llu\nQuantidade de trocas: %llu\nTempo de "
-      "execução: %f\n",
-      data.numberOfComparisons, data.numberOfSwaps, data.time);
+  printf("%llu %llu %f\n", data.numberOfComparisons, data.numberOfSwaps,
+         data.time);
 
   if (printModifier) {
     for (int i = 0; i < size; i++) {

@@ -20,7 +20,7 @@ if [ ! -f "./testcases/Reverse/test-$num.in" ]; then
 
 fi
 
-mkdir ./testcases/Random/$num
+mkdir -p ./testcases/Random/$num
 for ((i = 1; i <= 10; i ++)) do
   touch ./testcases/Random/$num/test-$i.in
   echo $num >> ./testcases/Random/$num/test-$i.in

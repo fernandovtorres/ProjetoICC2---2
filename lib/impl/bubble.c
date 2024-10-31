@@ -4,23 +4,19 @@ Data bubbleSort(int *array, int size) {
   INIT_DATA(data);
   data.start = clock();
 
-  int swapped = 0;
-  size--;
-
-  do{
-    swapped = 0;
-    
-    for (int i = 0; i < size; i++) {
-      if (array[i] > array[i + 1]) {
-        swap(&array[i], &array[i + 1]);
+  for (int i = 0; i < size - 1; i++) {
+    int swapped = 0;
+    for (int j = 0; j < size - i - 1; j++) {
+      if (array[j] > array[j + 1]) {
+        swap(&array[j], &array[j + 1]);
         swapped = 1;
-
         data.numberOfSwaps++;
       }
-
       data.numberOfComparisons++;
     }
-  }while(swapped);
+    if (!swapped)
+      break;
+  }
 
   data.end = clock();
   data.time = (double)(data.end - data.start) / CLOCKS_PER_SEC;
