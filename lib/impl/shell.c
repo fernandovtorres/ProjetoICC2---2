@@ -1,12 +1,13 @@
 #include "../shell.h"
 
-void shellsort(int v[], int size, int increments[], int numOfIncrements, Data *data);
+void shellsort(int v[], int size, int increments[], int numOfIncrements,
+               Data *data);
 
 Data shellSort(int *array, int size) {
   INIT_DATA(data);
   data.start = clock();
 
-  int increments[5] = {281, 77, 23, 8, 1}; //Sedgewick's sequence
+  int increments[5] = {281, 77, 23, 8, 1}; // Sedgewick's sequence
   int numOfIncrements = 5;
 
   shellsort(array, size, increments, numOfIncrements, &data);
@@ -17,18 +18,20 @@ Data shellSort(int *array, int size) {
   return data;
 }
 
-void shellsort(int v[], int size, int increments[], int numOfIncrements, Data *data){
+void shellsort(int v[], int size, int increments[], int numOfIncrements,
+               Data *data) {
   int i, j, k, aux, h;
-    
-  for(k=0; k<numOfIncrements; k++){
+
+  for (k = 0; k < numOfIncrements; k++) {
     h = increments[k];
 
-    for(i = h; i < size; i++){
+    for (i = h; i < size; i++) {
       aux = v[i];
 
-      for(j = i - h; (j >= 0) && (v[j] > aux); j -= h){
+      for (j = i - h; (j >= 0) && (v[j] > aux); j -= h) {
         v[j + h] = v[j];
         data->numberOfComparisons++;
+        data->numberOfSwaps++;
       }
 
       v[j + h] = aux;

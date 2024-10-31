@@ -1,23 +1,24 @@
 #include "../merge.h"
 
-void merge(int left[], int sizeLeft, int right[], int sizeRight, int *v, Data *data);
+void merge(int left[], int sizeLeft, int right[], int sizeRight, int *v,
+           Data *data);
 
 Data mergeSort(int *array, int size) {
   INIT_DATA(data);
   data.start = clock();
 
-  if(size == 1) return data;
+  if (size == 1)
+    return data;
 
   int middle = size / 2;
   int left[middle], right[size - middle];
 
   int l = 0, r = 0;
-  for (int i = 0; i < size; i++){
-    if(i < middle){
+  for (int i = 0; i < size; i++) {
+    if (i < middle) {
       left[l] = array[i];
       l++;
-    }
-    else{
+    } else {
       right[r] = array[i];
       r++;
     }
@@ -33,32 +34,35 @@ Data mergeSort(int *array, int size) {
   return data;
 }
 
-void merge(int left[], int sizeLeft, int right[], int sizeRight, int *v, Data *data){
-  int i=0, l=0, r=0;
+void merge(int left[], int sizeLeft, int right[], int sizeRight, int *v,
+           Data *data) {
+  int i = 0, l = 0, r = 0;
 
-  while((l < sizeLeft) && (r < sizeRight)){
-    if(left[l] < right[r]){
+  while ((l < sizeLeft) && (r < sizeRight)) {
+    if (left[l] < right[r]) {
       v[i] = left[l];
       l++;
-    }
-    else{
+    } else {
       v[i] = right[r];
       r++;
     }
-    
+
     data->numberOfComparisons++;
+    data->numberOfSwaps++;
     i++;
   }
 
-  while(l < sizeLeft){
+  while (l < sizeLeft) {
     v[i] = left[l];
     l++;
     i++;
+    data->numberOfSwaps++;
   }
-  while(r < sizeRight){
+  while (r < sizeRight) {
     v[i] = right[r];
     r++;
     i++;
+    data->numberOfSwaps++;
   }
 
   return;

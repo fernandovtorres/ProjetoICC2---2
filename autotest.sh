@@ -19,7 +19,7 @@ for i in ${sortsArray[@]}; do
 done 
 
 for i in ${sortsArray[@]}; do
-  echo "testando" $i
+  echo "rodando" $i
   for j in ${numberArray[@]}; do
     echo "Numero de casos" $j
     ./src/main $i < ./testcases/Sorted/test-$j.in > ./results/$i/Sorted/$j/result.out
