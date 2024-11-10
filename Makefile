@@ -7,3 +7,6 @@ clean:
 	rm src/main
 
 remake: clean all
+
+zip:
+	zip -R projeto_02 './src/*.c' './lib/impl/*.c' './lib/*.h' './testcases/*/*/*.in' './testcases/*/*/*.out' './testcases/*/*.in' './testcases/*/*.out' 'relatorio.pdf' 'instrucoes.txt'
