@@ -1,14 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1731259476.96408 "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" "main.pdf" "main" 1731259477.5561 0
-  "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" 1731259476.71977 11602 7a307f932d2be647f3752331927382aa ""
+["pdflatex"] 1731259725.91989 "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" "main.pdf" "main" 1731259726.36555 2
+  "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" 1731259725.66478 11606 91d9aa465d3587d8608500c503633d37 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1727349926 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1727349926 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1727349926 1288 655e228510b4c2a1abe905c368440826 ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1727349926 34811 78b52f49e893bcba91bd7581cdc144c0 ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1727349926 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1727349926 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1727349926 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1727349926 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1727349926 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/babel-portuges/portuguese.ldf" 1727349926 6599 898431e984e4e8b6d8aa6cdcb036f8db ""
   "/usr/share/texmf-dist/tex/generic/babel/babel.sty" 1727349926 146276 10a40dabec03ce18494af0c3a51bcbdc ""
@@ -37,13 +32,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1731239636.37058 29871 18e04762487e39c9af1b8df78fcf191a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1731239619 7164412 6fb0c460f577cba1ec3a6d25cb266603 ""
-  "images/TempoExecGeralAleat2.png" 1731257607.2854 78395 378ff5ce312961d4306b5c0d97c6a663 ""
   "images/TempoExecn2.png" 1731259128.65704 67855 62a5cbe40af93715543c109c6ef65ff5 ""
   "images/TempoExecnk.png" 1731259246.49136 36066 9a90b79c0c8284b9c81dd8d916712a61 ""
   "images/TempoExecnlogn.png" 1731259199.29098 56286 a8aa3e439a29eacae31890c3ae21bbdb ""
   "images/imcmc_poggers.png" 1731249862 9705 77ef5bd8c268163f9e0d2347f3bb8db3 ""
-  "main.aux" 1731259477.51644 3307 9ab40188db12a5ca944fb81f547b685c "pdflatex"
-  "main.tex" 1731259476.71977 11602 7a307f932d2be647f3752331927382aa ""
+  "main.aux" 1731259726.16479 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1731259725.66478 11606 91d9aa465d3587d8608500c503633d37 ""
   (generated)
   "main.aux"
   "main.log"
