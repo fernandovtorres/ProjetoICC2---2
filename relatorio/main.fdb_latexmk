@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1731248081.03233 "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" "main.pdf" "main" 1731248081.3602 0
-  "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" 1731248080.76073 10436 7eb8e327141f2cc53e5c852654e7f8e5 ""
+["pdflatex"] 1731259476.96408 "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" "main.pdf" "main" 1731259477.5561 0
+  "/home/alecca/Desktop/USP/ICC/ICC2/ProjetoICC2---2/relatorio/main.tex" 1731259476.71977 11602 7a307f932d2be647f3752331927382aa ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1727349926 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1727349926 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1727349926 1288 655e228510b4c2a1abe905c368440826 ""
@@ -37,12 +37,13 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1731239636.37058 29871 18e04762487e39c9af1b8df78fcf191a ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1731239619 7164412 6fb0c460f577cba1ec3a6d25cb266603 ""
-  "images/TempExec1.jpg" 1731242050.19493 37533 9f867a0734b230f727d0296e98b464cc ""
-  "images/TempoExec2.jpg" 1731242274.22956 32886 be6f4009391ba0995d6ceffc8c248497 ""
-  "images/TempoExec3.jpg" 1731242283.05961 26640 57b67d5f5deda3d7acf543d102a85153 ""
+  "images/TempoExecGeralAleat2.png" 1731257607.2854 78395 378ff5ce312961d4306b5c0d97c6a663 ""
+  "images/TempoExecn2.png" 1731259128.65704 67855 62a5cbe40af93715543c109c6ef65ff5 ""
+  "images/TempoExecnk.png" 1731259246.49136 36066 9a90b79c0c8284b9c81dd8d916712a61 ""
+  "images/TempoExecnlogn.png" 1731259199.29098 56286 a8aa3e439a29eacae31890c3ae21bbdb ""
   "images/imcmc_poggers.png" 1731249862 9705 77ef5bd8c268163f9e0d2347f3bb8db3 ""
-  "main.aux" 1731248081.32407 3122 e934f17d5ffb95c831484e824b822ed8 "pdflatex"
-  "main.tex" 1731248080.76073 10436 7eb8e327141f2cc53e5c852654e7f8e5 ""
+  "main.aux" 1731259477.51644 3307 9ab40188db12a5ca944fb81f547b685c "pdflatex"
+  "main.tex" 1731259476.71977 11602 7a307f932d2be647f3752331927382aa ""
   (generated)
   "main.aux"
   "main.log"

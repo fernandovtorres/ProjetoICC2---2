@@ -75,7 +75,7 @@ Para melhor organizar as informações, agrupamos os algoritmos por complexidade
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{TempExec1.jpg}
+  \includegraphics[width=1.1\textwidth]{TempoExecn2.png}
   \caption{Gráfico do tempo de execução dos algoritmos $O(n^2)$}
   \label{fig:1}
 \end{figure}
@@ -86,7 +86,7 @@ Para melhor organizar as informações, agrupamos os algoritmos por complexidade
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{TempoExec2.jpg}
+  \includegraphics[width=1.1\textwidth]{TempoExecnlogn.png}
   \caption{Gráfico do tempo de execução dos algoritmos $O(n \log(n))$}
   \label{fig:2}
 \end{figure}
@@ -97,7 +97,7 @@ Para melhor organizar as informações, agrupamos os algoritmos por complexidade
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{TempoExec3.jpg}
+  \includegraphics[width=1.1\textwidth]{TempoExecnk.png}
   \caption{Gráfico do tempo de execução dos algoritmos $O(n k)$}
   \label{fig:3}
 \end{figure}
@@ -384,7 +384,16 @@ Para melhor organizar as informações, agrupamos os algoritmos por complexidade
 
 \textbf{5. Análise dos Resultados}
 
+Na necessidade de dicidir qual o melhor e o pior algoritmo, vamos nos aproximar o máximo possível de uma situação real, onde a propriedade que mais importa é o \textbf{tempo de execução}, que pode ser o gargalo para outros serviços, e não a quantidade de trocas ou comparações, tendo em vista a alta capacidade computacional das máquinas atuais. Além disso, o vetor que mais se aproxima de situações reais é um \textbf{aleatório}. Portanto, vamos analisar o gráfico a seguir.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{TempoExecGeralAleat2.png}
+  \caption{Gráfico do tempo de execução de todos algoritmos}
+  \label{fig:4}
+\end{figure}
+
+Percebemos, no gráfico, que o melhor algoritmo foi o \textbf{MergeSort}, enquanto os piores foram o \textbf{BubbleSort} e o \textbf{Contagem de Menores}. Esse resultado faz sentido quando comparado com as complexidades dos algoritmos, visto que o MergeSort tem complexidade temporal $O(n \log(n))$. Note, contudo, que ele possui uma complexidade de espaço $O(n)$. Os piores algoritmos foram aqueles com complexidade temporal $O(n^2)$, com complexidades espaciais de $O(n)$.
 
 \vspace{0.25cm}
 

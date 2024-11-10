@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  10 NOV 2024 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.10)  10 NOV 2024 14:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -192,34 +192,49 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 31.
-<./images/TempExec1.jpg, id=1, 677.53125pt x 372.39125pt>
-File: ./images/TempExec1.jpg Graphic file (type jpg)
-<use ./images/TempExec1.jpg>
-Package pdftex.def Info: ./images/TempExec1.jpg  used on input line 78.
-(pdftex.def)             Requested size: 334.60422pt x 183.9109pt.
-<./images/imcmc_poggers.png, id=2, 335.2525pt x 151.56625pt>
+<./images/TempoExecn2.png, id=1, 987.2082pt x 506.6127pt>
+File: ./images/TempoExecn2.png Graphic file (type png)
+<use ./images/TempoExecn2.png>
+Package pdftex.def Info: ./images/TempoExecn2.png  used on input line 78.
+(pdftex.def)             Requested size: 460.08159pt x 236.10585pt.
+
+Overfull \hbox (41.82791pt too wide) in paragraph at lines 78--79
+ [][] 
+ []
+
+<./images/imcmc_poggers.png, id=3, 335.2525pt x 151.56625pt>
 File: ./images/imcmc_poggers.png Graphic file (type png)
 <use ./images/imcmc_poggers.png>
 Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 82.
 (pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/imcmc_poggers.png>]
-<./images/TempoExec2.jpg, id=14, 602.25pt x 372.39125pt>
-File: ./images/TempoExec2.jpg Graphic file (type jpg)
-<use ./images/TempoExec2.jpg>
-Package pdftex.def Info: ./images/TempoExec2.jpg  used on input line 89.
-(pdftex.def)             Requested size: 292.77629pt x 181.04138pt.
-<./images/TempoExec3.jpg, id=15, 602.25pt x 372.39125pt>
-File: ./images/TempoExec3.jpg Graphic file (type jpg)
-<use ./images/TempoExec3.jpg>
-Package pdftex.def Info: ./images/TempoExec3.jpg  used on input line 100.
-(pdftex.def)             Requested size: 292.77629pt x 181.04138pt.
+<./images/TempoExecnlogn.png, id=15, 987.2082pt x 506.6127pt>
+File: ./images/TempoExecnlogn.png Graphic file (type png)
+<use ./images/TempoExecnlogn.png>
+Package pdftex.def Info: ./images/TempoExecnlogn.png  used on input line 89.
+(pdftex.def)             Requested size: 460.08159pt x 236.10585pt.
+
+Overfull \hbox (41.82791pt too wide) in paragraph at lines 89--90
+ [][] 
+ []
+
+<./images/TempoExecnk.png, id=16, 987.2082pt x 506.6127pt>
+File: ./images/TempoExecnk.png Graphic file (type png)
+<use ./images/TempoExecnk.png>
+Package pdftex.def Info: ./images/TempoExecnk.png  used on input line 100.
+(pdftex.def)             Requested size: 460.08159pt x 236.10585pt.
+
+Overfull \hbox (41.82791pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
 File: ./images/imcmc_poggers.png Graphic file (type png)
 <use ./images/imcmc_poggers.png>
-Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 104.
+Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 103.
 (pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
- [2 <./images/TempExec1.jpg> <./images/TempoExec2.jpg>]
+[2 <./images/TempoExecn2.png> <./images/TempoExecnlogn.png>]
 Overfull \hbox (32.59325pt too wide) in paragraph at lines 125--125
  [][] 
  []
@@ -239,7 +254,11 @@ Overfull \hbox (39.78773pt too wide) in paragraph at lines 166--166
  [][] 
  []
 
-
+File: ./images/imcmc_poggers.png Graphic file (type png)
+<use ./images/imcmc_poggers.png>
+Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 181.
+(pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
+[3 <./images/TempoExecnk.png>]
 Overfull \hbox (10.37096pt too wide) in paragraph at lines 198--198
  [][] 
  []
@@ -249,11 +268,7 @@ Overfull \hbox (4.09308pt too wide) in paragraph at lines 211--211
  [][] 
  []
 
-File: ./images/imcmc_poggers.png Graphic file (type png)
-<use ./images/imcmc_poggers.png>
-Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 212.
-(pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
-[3 <./images/TempoExec3.jpg>]
+
 Overfull \hbox (32.59325pt too wide) in paragraph at lines 264--264
  [][] 
  []
@@ -263,7 +278,11 @@ Overfull \hbox (4.09308pt too wide) in paragraph at lines 277--277
  [][] 
  []
 
-
+File: ./images/imcmc_poggers.png Graphic file (type png)
+<use ./images/imcmc_poggers.png>
+Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 279.
+(pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
+[4]
 Overfull \hbox (32.59325pt too wide) in paragraph at lines 292--292
  [][] 
  []
@@ -273,11 +292,7 @@ Overfull \hbox (4.09308pt too wide) in paragraph at lines 305--305
  [][] 
  []
 
-File: ./images/imcmc_poggers.png Graphic file (type png)
-<use ./images/imcmc_poggers.png>
-Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 307.
-(pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
-[4]
+
 Overfull \hbox (10.37096pt too wide) in paragraph at lines 337--337
  [][] 
  []
@@ -289,27 +304,37 @@ Overfull \hbox (4.09308pt too wide) in paragraph at lines 350--350
 
 File: ./images/imcmc_poggers.png Graphic file (type png)
 <use ./images/imcmc_poggers.png>
-Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 391.
+Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 382.
 (pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
-[5] (./main.aux)
+[5]
+<./images/TempoExecGeralAleat2.png, id=32, 849.1725pt x 504.38437pt>
+File: ./images/TempoExecGeralAleat2.png Graphic file (type png)
+<use ./images/TempoExecGeralAleat2.png>
+Package pdftex.def Info: ./images/TempoExecGeralAleat2.png  used on input line 391.
+(pdftex.def)             Requested size: 418.25368pt x 248.42809pt.
+File: ./images/imcmc_poggers.png Graphic file (type png)
+<use ./images/imcmc_poggers.png>
+Package pdftex.def Info: ./images/imcmc_poggers.png  used on input line 400.
+(pdftex.def)             Requested size: 71.13188pt x 32.15825pt.
+ [6 <./images/TempoExecGeralAleat2.png (PNG copy)>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3406 strings out of 476015
- 56704 string characters out of 5792114
- 1952187 words of memory out of 5000000
- 25526 multiletter control sequences out of 15000+600000
+ 3417 strings out of 476015
+ 57122 string characters out of 5792114
+ 1957187 words of memory out of 5000000
+ 25537 multiletter control sequences out of 15000+600000
  558982 words of font info for 39 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  57i,15n,65p,593b,352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on main.pdf (5 pages, 186831 bytes).
+Output written on main.pdf (6 pages, 309675 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
